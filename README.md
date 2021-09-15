@@ -8,7 +8,7 @@ I never used Django Rest Framework before, so i couldn't complete all the challe
 ## Endpoints
  - http://localhost:8000/api/articles/ CRUD
  - http://localhost:8000/api/authors/ CRUD
- - http://localhost:8000/api/sign-up/ Its not working as I wantes
+ - http://localhost:8000/api/sign-up/ Its not working as I wanted
 
 ## 🗒 To run
 
