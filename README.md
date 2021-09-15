@@ -18,9 +18,11 @@ I never used Django Rest Framework before, so i couldn't complete all the challe
    - Go to repository folder you just cloned:
      - `cd djangoChallenge`
 
-2. Make sure you have installed djando-admin, python, python3, postgresql, and runing a venv:
+2. Make sure you have installed djando-admin, python, python3, postgresql
 
-3. Change in the settings.py file the credentials of your database:
+3. Activate venv with the command source myvenv/bin/activate 
+
+4. Change in the settings.py file the credentials of your database:
  DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -31,10 +33,10 @@ I never used Django Rest Framework before, so i couldn't complete all the challe
     }
 }
 
-4. run python manage.py makemigrations
+5. run python manage.py makemigrations
 
-5. run python manage.py migrate
+6. run python manage.py migrate
 
-6. run python manage.py runserver
+7. run python manage.py runserver
   - the server will run on port 8000
 
